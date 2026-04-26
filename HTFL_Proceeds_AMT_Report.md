@@ -34,13 +34,15 @@ This adjustment reduces Alternative Minimum Taxable Income (AMTI), causing tenta
 
 ## 10b5-1 Tranche Schedule
 
-| Tranche | Period | Shares | Lot | Order | Price Floor | Backstop |
+| Tranche | Window | Shares | Lot | Order | Price Floor | Backstop |
 |---------|--------|--------|-----|-------|------------|---------|
-| 1 | Oct 2026 | 2,000 | B | Market | — | — |
-| 2 | Nov 2026 | 2,000 | B | Limit | ≥ $33 | Market Nov 30 |
-| 3 | Dec 2026 | 2,258 | B | Limit | ≥ $35 | Market Dec 31 |
-| 4 | Jan–Mar 2027 | 2,000 | B | Limit | ≥ $37 | Market Mar 31 |
-| 5 | Apr–Jun 2027 | 2,680 | A+B | Limit | ≥ $40 | Market Jun 30 |
+| 1 | Oct 1–31, 2026 | 2,000 | B | Market | — | — |
+| 2 | Nov 1–30, 2026 | 2,000 | B | Limit | ≥ $33 | Market Nov 30 |
+| 3 | Dec 1, 2026 – Jun 30, 2027 | 2,258 | B | Limit | ≥ $35 | Market Jun 30 |
+| 4 | Dec 1, 2026 – Jun 30, 2027 | 2,000 | B | Limit | ≥ $37 | Market Jun 30 |
+| 5 | Dec 1, 2026 – Jun 30, 2027 | 2,680 | A+B | Limit | ≥ $40 | Market Jun 30 |
+
+*Tranches 3–5 run concurrently from Dec 1, 2026, giving each limit order up to 7 months to be hit before the Jun 30, 2027 backstop.*
 
 ---
 
@@ -64,7 +66,8 @@ This adjustment reduces Alternative Minimum Taxable Income (AMTI), causing tenta
 | **2027 proceeds** (T4+T5) | $145,080 | $175,840 | $181,200 |
 | **Total gross proceeds** | **$339,080** | **$384,870** | **$392,230** |
 
-*Gross proceeds = sale price × shares. Does not net out exercise costs (shares were already exercised in 2025).*
+*Gross proceeds = sale price × shares. Does not net out exercise costs (shares were already exercised in 2025).*  
+*With wider windows (T3–T5 open from Dec 2026), 2026 proceeds could be higher if limits are hit before year-end — shifting AMT recovery and LTCG taxes into 2026. This is offset by the AMT credit (~$64K) recovered in that same year.*
 
 ---
 

@@ -49,23 +49,25 @@ The employee hereby certifies that:
 
 ### Tranche Schedule
 
-| Tranche | Period | Shares | Lot | Order Type | Limit Price | Backstop |
+| Tranche | Window | Shares | Lot | Order Type | Limit Price | Backstop |
 |---------|--------|--------|-----|-----------|-------------|---------|
 | 1 | Oct 1–31, 2026 | 2,000 | B | Market | — | — |
 | 2 | Nov 1–30, 2026 | 2,000 | B | Limit | ≥ $33.00 | Market Nov 30 |
-| 3 | Dec 1–31, 2026 | 2,258 | B | Limit | ≥ $35.00 | Market Dec 31 |
-| 4 | Jan 1–Mar 31, 2027 | 2,000 | B | Limit | ≥ $37.00 | Market Mar 31 |
-| 5 | Apr 1–Jun 30, 2027 | 2,680 | A+B | Limit | ≥ $40.00 | Market Jun 30 |
+| 3 | Dec 1, 2026 – Jun 30, 2027 | 2,258 | B | Limit | ≥ $35.00 | Market Jun 30 |
+| 4 | Dec 1, 2026 – Jun 30, 2027 | 2,000 | B | Limit | ≥ $37.00 | Market Jun 30 |
+| 5 | Dec 1, 2026 – Jun 30, 2027 | 2,680 | A+B | Limit | ≥ $40.00 | Market Jun 30 |
 | **Total** | | **10,938** | | | | |
 
-*Tranche 5 comprises 1,680 Lot A shares and 1,000 remaining Lot B shares.*  
+*Tranches 3, 4, and 5 run concurrently. Each covers a distinct, non-overlapping share pool.*  
+*Tranche 5 comprises 1,680 Lot A shares ($8.33 exercise) and 1,000 remaining Lot B shares ($2.22 exercise).*  
 *Backstop orders are market orders placed at period end if the limit price has not been reached.*
 
 ### Execution Instructions
 - All sales to be executed through Fidelity Stock Plan Services
 - Shares to be sold from account Z30-889917
-- Lot identification: specify **Lot B ($2.22 exercise)** for Tranches 1–4 and remaining Lot B portion of Tranche 5; **Lot A ($8.33 exercise)** for the 1,680-share Lot A portion of Tranche 5
-- Each tranche to be executed as a single order or series of orders within the designated period
+- Lot identification: specify **Lot B ($2.22 exercise)** for Tranches 1–4 and the 1,000-share Lot B portion of Tranche 5; **Lot A ($8.33 exercise)** for the 1,680-share portion of Tranche 5
+- When multiple concurrent tranches are triggered simultaneously, execute in price-floor order: T3 ($35) first, then T4 ($37), then T5 ($40)
+- Each tranche to be executed as a single order or series of orders within its designated window
 
 ---
 
